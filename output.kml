@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+     xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <Style id="transBluePoly"> 
+      <LineStyle>
+        <width>1.5</width>
+      </LineStyle>
+      <PolyStyle>  
+        <color>7dff0000</color>
+        <outline>0</outline>
+      </PolyStyle>
+    </Style>
+  <Placemark>
+    <name>foo</name>
+    <Point>
+      <coordinates>-122.23,47.61,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>foo</name>
+    <Point>
+      <coordinates>-122.23,47.62,0</coordinates>
+    </Point>
+  </Placemark>
+  </Document>
+</kml>
+
