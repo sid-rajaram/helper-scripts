@@ -60,6 +60,54 @@ kansas_pts['S'] = 40
 kansas_pts['E'] = -94.58
 kansas_pts['W'] = -102.05
 
+florida_pts = dict()
+florida_pts['N'] = 24.45
+florida_pts['S'] = 31.0
+florida_pts['E'] = -80.0
+florida_pts['W'] = -87.7
+
+illinois_pts = dict()
+illinois_pts['N'] = 36.95
+illinois_pts['S'] = 42.5
+illinois_pts['E'] = -87.5
+illinois_pts['W'] = -91.55
+
+pennsylvania_pts = dict()
+pennsylvania_pts['N'] = 39.66
+pennsylvania_pts['S'] = 42.3
+pennsylvania_pts['E'] = -74.65
+pennsylvania_pts['W'] = -80.55
+
+ohio_pts = dict()
+ohio_pts['N'] = 38.4
+ohio_pts['S'] = 42.0
+ohio_pts['E'] = -80.5
+ohio_pts['W'] = -84.85
+
+georgia_pts = dict()
+georgia_pts['N'] = 30.356
+georgia_pts['S'] = 34.985
+georgia_pts['E'] = -80.84
+georgia_pts['W'] = -85.605
+
+michigan_pts = dict()
+michigan_pts['N'] = 41.6
+michigan_pts['S'] = 48.3
+michigan_pts['E'] = -82.1
+michigan_pts['W'] = -90.45
+
+northcarolina_pts = dict()
+northcarolina_pts['N'] = 33.8
+northcarolina_pts['S'] = 36.6
+northcarolina_pts['E'] = -75.45
+northcarolina_pts['W'] = -84.35
+
+newjersey_pts = dict()
+newjersey_pts['N'] = 38.9
+newjersey_pts['S'] = 41.35
+newjersey_pts['E'] = -73.9
+newjersey_pts['W'] = -75.6
+
 alaska_poly = poly_from_bounds(alaska_pts)
 hawaii_poly = poly_from_bounds(hawaii_pts)
 mainland_poly = poly_from_bounds(mainland_pts)
@@ -69,3 +117,11 @@ texas_poly = poly_from_bounds(texas_pts)
 newyork_poly = poly_from_bounds(newyork_pts)
 california_poly = poly_from_bounds(california_pts)
 kansas_poly = poly_from_bounds(kansas_pts)
+florida_poly = poly_from_bounds(florida_pts)
+illinois_poly = poly_from_bounds(illinois_pts)
+pennsylvania_poly = poly_from_bounds(pennsylvania_pts)
+ohio_poly = poly_from_bounds(ohio_pts)
+georgia_poly = poly_from_bounds(georgia_pts)
+michigan_poly = poly_from_bounds(michigan_pts)
+northcarolina_poly = poly_from_bounds(northcarolina_pts)
+newjersey_poly = poly_from_bounds(newjersey_pts)
